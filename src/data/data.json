@@ -1,0 +1,61 @@
+{
+  "info": [
+    {
+      "name": "CPU",
+      "id": "cpu",
+      "value": "Intel"
+    },
+    {
+      "name": "RAM",
+      "id": "ram",
+      "value": 512
+    },
+    {
+      "name": "Drives",
+      "id": "drives",
+      "value": "SSD"
+    }
+  ],
+  "table": [
+    {
+      "aviability": "YES",
+      "isAvailable": true,
+      "location": "Seed service 2",
+      "price_eur": 100,
+      "price_usd": 100,
+      "price_sgd": 200,
+      "price_hkd": 400,
+      "id": 1
+    },
+    {
+      "aviability": "NO",
+      "location": "Seed service 1",
+      "isAvailable": false,
+      "price_eur": 200,
+      "price_usd": 200,
+      "price_sgd": 200,
+      "price_hkd": 200,
+      "id": 2
+    },
+    {
+      "aviability": "NO",
+      "location": "Seed service 3",
+      "isAvailable": false,
+      "price_eur": 200,
+      "price_usd": 200,
+      "price_sgd": 200,
+      "price_hkd": 200,
+      "id": 3
+    },
+    {
+      "aviability": "YES",
+      "location": "Seed service 5",
+      "isAvailable": true,
+      "price_eur": 200,
+      "price_usd": 200,
+      "price_sgd": 200,
+      "price_hkd": 200,
+      "id": 4
+    }
+  ]
+}

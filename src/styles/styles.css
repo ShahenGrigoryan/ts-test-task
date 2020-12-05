@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Helvetica;
+    src: url("../assets/fonts/HelveticaNeue.ttf") format("ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, serif;
+}
+
+.data-table {
+    width: calc(100% - 20px);
+    border-collapse: collapse;
+    margin: 0 auto 73px auto;
+}
+
+.data-table tr, .data-table td, .data-table th {
+    text-align: left;
+}
+
+.data-table th {
+    color: #999999;
+    font-weight: normal;
+    padding: 26px 0;
+}
+
+.data-table tr {
+    border-bottom: 1px solid #F5F5F5;
+    padding: 0 15px;
+}
+
+.data-table td {
+    border-bottom: 1px solid #F5F5F5;
+    padding: 8px 10px 8px 0;
+
+}
+
+.data-table select {
+    width: 90%;
+    min-width: 60px;
+    padding: 8px 0;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 28px 20px 20px;
+}
+
+.top-bar h2 {
+    margin: 0;
+}
+
+.edit-button {
+    background: #746DF1;
+    border: 1px solid #413AC8;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0.8;
+    transition: .2s ease;
+}
+
+.edit-button:hover {
+    opacity: 1;
+}
+
+.edit-button:active {
+    background: #635dc3;
+}
+
+.info-container {
+    padding: 30px 0;
+    margin: 10px 20px 40px 20px;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+.info-container td, .info-container th {
+    min-width: 120px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.info-container th {
+    color: #999999;
+
+    font-weight: bold;
+}
+
+.table-checkbox {
+    margin-right: 33px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+
+.table-checkbox:hover {
+    opacity: 1;
+}
+
+.table-checkbox:active {
+    box-shadow: 0px 0px 9px 0 #746df1;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.data-table th:first-child {
+    padding-left: 14px;
+}
+.data-table .first-cell{
+    padding-left: 15px;
+}
+
+.data-table .second-cell{
+    width:51%;
+}
+
+.hidden{
+    display: none;
+}
